@@ -10,7 +10,7 @@ SYNOPSIS
 
     use Algorithm::Kruskal;
 
-    my $kruskal = Algorithm::Kruskal.new(vertex-size => 6);
+    my $kruskal = Algorithm::Kruskal.new(vertex-size => 4);
 
     $kruskal.add-edge(0, 1, 2);
     $kruskal.add-edge(1, 2, 1);
@@ -20,8 +20,8 @@ SYNOPSIS
     $kruskal.add-edge(1, 3, 5);
 
     my %forest = $kruskal.compute-minimal-spanning-tree();
-    %forest<weight>.say # 3
-    %forest<edges>.say # [[1, 2], [2, 3], [3, 0]]
+    %forest<weight>.say; # 3
+    %forest<edges>.say; # [[1 2] [2 3] [3 0]]
 
 DESCRIPTION
 ===========
