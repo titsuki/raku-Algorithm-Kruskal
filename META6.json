@@ -7,7 +7,11 @@
   "provides" : {
     "Algorithm::Kruskal" : "lib/Algorithm/Kruskal.pm6"
   },
-  "depends" : [ ],
+  "depends" : [
+    "Algorithm::SetUnion",
+    "Algorithm::MinMaxHeap",
+    "Algorithm::MinMaxHeap::Comparable"
+  ],
   "description" : "a perl6 implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length",
   "test-depends" : [ ],
   "version" : "*",
