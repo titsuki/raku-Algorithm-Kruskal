@@ -10,6 +10,19 @@ SYNOPSIS
 
     use Algorithm::Kruskal;
 
+    my $kruskal = Algorithm::Kruskal.new(vertex-size => 6);
+
+    $kruskal.add-edge(0, 1, 2);
+    $kruskal.add-edge(1, 2, 1);
+    $kruskal.add-edge(2, 3, 1);
+    $kruskal.add-edge(3, 0, 1);
+    $kruskal.add-edge(0, 2, 3);
+    $kruskal.add-edge(1, 3, 5);
+
+    my %forest = $kruskal.compute-minimal-spanning-tree();
+    %forest<weight>.say # 3
+    %forest<edges>.say # [[1, 2], [2, 3], [3, 0]]
+
 DESCRIPTION
 ===========
 
@@ -33,7 +46,7 @@ METHODS
 
     $kruskal.add-edge($from, $to, $weight);
 
-Add a edge to the graph. `$weight` is the weight between vertex `$from` and vertex `$to`.
+Adds a edge to the graph. `$weight` is the weight between vertex `$from` and vertex `$to`.
 
 ### compute-minimal-spanning-tree() returns List
 
