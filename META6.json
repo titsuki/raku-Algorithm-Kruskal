@@ -1,0 +1,17 @@
+{
+  "name" : "Algorithm::Kruskal",
+  "source-url" : "",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "provides" : {
+    "Algorithm::Kruskal" : "lib/Algorithm/Kruskal.pm6"
+  },
+  "depends" : [ ],
+  "description" : "a perl6 implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length",
+  "test-depends" : [ ],
+  "version" : "*",
+  "authors" : [
+    "titsuki"
+  ]
+}
