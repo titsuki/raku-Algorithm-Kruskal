@@ -59,7 +59,7 @@ Computes and returns a minimal spanning tree and its weight.
 AUTHOR
 ======
 
-titsuki <cookbook_000@yahoo.co.jp>
+titsuki <titsuki@cpan.org>
 
 COPYRIGHT AND LICENSE
 =====================

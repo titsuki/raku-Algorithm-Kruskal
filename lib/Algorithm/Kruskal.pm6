@@ -105,7 +105,7 @@ Computes and returns a minimal spanning tree and its weight.
 
 =head1 AUTHOR
 
-titsuki <cookbook_000@yahoo.co.jp>
+titsuki <titsuki@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
