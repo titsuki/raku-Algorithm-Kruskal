@@ -34,7 +34,7 @@ method add-edge(Int $from, Int $to, Num $weight) {
     $!heap.insert(State.new(from => $from, to => $to, weight => $weight));
 }
 
-method compute-minimal-spanning-tree() returns List {
+method compute-minimal-spanning-tree(--> List) {
     my $weight = 0;
     my @edges;
     my $prev-heap = $!heap.clone;
