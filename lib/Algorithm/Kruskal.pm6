@@ -12,7 +12,7 @@ submethod BUILD(:$!vertex-size) {
     $!heap = Algorithm::MinMaxHeap[Algorithm::MinMaxHeap::Comparable].new;
 }
 
-method add-edge(Int $from, Int $to, Real $weight) {
+method add-edge(Int $from, Int $to, Num $weight) {
     my class State {
 	also does Algorithm::MinMaxHeap::Comparable[State];
 	
