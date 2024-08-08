@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/titsuki/p6-Algorithm-Kruskal.svg?branch=master)](https://travis-ci.org/titsuki/p6-Algorithm-Kruskal)
+[![Actions Status](https://github.com/titsuki/raku-Algorithm-Kruskal/actions/workflows/test.yml/badge.svg)](https://github.com/titsuki/raku-Algorithm-Kruskal/actions)
 
 NAME
 ====
 
-Algorithm::Kruskal - a perl6 implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length
+Algorithm::Kruskal - a Raku implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length
 
 SYNOPSIS
 ========
@@ -26,7 +26,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-Algorithm::Kruskal is a perl6 implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length
+Algorithm::Kruskal is a Raku implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length
 
 CONSTRUCTOR
 -----------
@@ -69,3 +69,4 @@ Copyright 2016 titsuki
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
 This algorithm is from Kruskal, Joseph B. "On the shortest spanning subtree of a graph and the traveling salesman problem." Proceedings of the American Mathematical society 7.1 (1956): 48-50.
+

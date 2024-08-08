@@ -7,7 +7,7 @@
     "Algorithm::SetUnion",
     "Algorithm::MinMaxHeap"
   ],
-  "description" : "a perl6 implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length",
+  "description" : "a Raku implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length",
   "license" : "Artistic-2.0",
   "name" : "Algorithm::Kruskal",
   "perl" : "6.c",

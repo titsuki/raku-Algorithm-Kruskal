@@ -54,7 +54,7 @@ method compute-minimal-spanning-tree(--> List) {
 
 =head1 NAME
 
-Algorithm::Kruskal -  a perl6 implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length
+Algorithm::Kruskal -  a Raku implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length
 
 =head1 SYNOPSIS
 
@@ -75,7 +75,7 @@ Algorithm::Kruskal -  a perl6 implementation of Kruskal's Algorithm for construc
 
 =head1 DESCRIPTION
 
-Algorithm::Kruskal is a perl6 implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length
+Algorithm::Kruskal is a Raku implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length
 
 =head2 CONSTRUCTOR
 
