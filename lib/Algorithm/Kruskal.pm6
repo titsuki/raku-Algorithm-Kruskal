@@ -1,5 +1,5 @@
 use v6;
-unit class Algorithm::Kruskal;
+unit class Algorithm::Kruskal:ver<0.0.1>:auth<zef:titsuki>;
 
 use Algorithm::MinMaxHeap;
 use Algorithm::SetUnion;

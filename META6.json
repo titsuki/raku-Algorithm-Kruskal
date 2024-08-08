@@ -1,22 +1,27 @@
 {
-  "authors" : [
+  "auth": "zef:titsuki",
+  "authors": [
     "titsuki"
   ],
-  "build-depends" : [ ],
-  "depends" : [
+  "build-depends": [
+  ],
+  "depends": [
     "Algorithm::SetUnion",
     "Algorithm::MinMaxHeap"
   ],
-  "description" : "a Raku implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length",
-  "license" : "Artistic-2.0",
-  "name" : "Algorithm::Kruskal",
-  "perl" : "6.c",
-  "provides" : {
-    "Algorithm::Kruskal" : "lib/Algorithm/Kruskal.pm6"
+  "description": "a Raku implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::Kruskal",
+  "perl": "6.c",
+  "provides": {
+    "Algorithm::Kruskal": "lib/Algorithm/Kruskal.pm6"
   },
-  "resources" : [ ],
-  "source-url" : "git://github.com/titsuki/p6-Algorithm-Kruskal.git",
-  "tags" : [ ],
-  "test-depends" : [ ],
-  "version" : "*"
+  "resources": [
+  ],
+  "source-url": "https://github.com/titsuki/raku-Algorithm-Kruskal.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "*"
 }
